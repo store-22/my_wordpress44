@@ -1,0 +1,7 @@
+2020-05-07T06:07:48+00:00 CRITICAL Uncaught Error: Call to undefined function wp_https_supports() in F:\WAMP\www\wordpress\wp-admin\includes\translation-install.php:41
+Stack trace:
+#0 F:\WAMP\www\wordpress\wp-admin\includes\translation-install.php(133): translations_api('core', Array)
+#1 F:\WAMP\www\wordpress\wp-admin\options-general.php(159): wp_get_available_translations()
+#2 {main}
+  thrown in F:\WAMP\www\wordpress\wp-admin\includes\translation-install.php on line 41
+
