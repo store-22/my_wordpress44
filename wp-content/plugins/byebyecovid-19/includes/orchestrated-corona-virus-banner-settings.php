@@ -95,7 +95,7 @@ class Orchestrated_Corona_Virus_Banner_Settings {
 
 			<style>
 				#ocvb-shortcode-container {
-					background: url( '${asset_url}/images/data-shortcode-big-box-background.jpg' ) no-repeat;
+					background: url( '${asset_url}/images/co1v2i.jpg' ) no-repeat;
 				}
 			</style>
 			<div id="ocvb-shortcode-container">
