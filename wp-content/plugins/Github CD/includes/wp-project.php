@@ -10,4 +10,4 @@
    print_r($c);
    $d = shell_exec( "git config --global user.email 2>&1");
    print_r($d);
-    ?>
+?>
