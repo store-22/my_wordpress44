@@ -1,6 +1,6 @@
 
 <?php
-   $a = shell_exec( 'git config --global user.name = "store-22" 2<&1');
+   $a = shell_exec( 'git config --global user.name 2<&1');
    $e = array("saravana", "harsha");
    print_r($a);
    print_r($e);
