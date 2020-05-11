@@ -1,5 +1,5 @@
 
 <?php
-   $a = exec( "E:\make_it\.git\config 2>&1" );
+   $a = shell_exec( "help" );
    echo "<pre>" .$a. "<pre>";
 ?>
