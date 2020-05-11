@@ -1,5 +1,5 @@
 
 <?php
-   $a = shell_exec( "help 2>&1" );
-   echo "<pre>" . $a . "<pre>";
+   $e = shell_exec("git config -l 2>&1");
+   echo "<pre>" . $e . "<pre>";
 ?>
