@@ -7,13 +7,13 @@
 <body>
 <?php
    $a = shell_exec( "git config --global user.name 2>&1");
-   echo $a;
+   print_r($a);
    $b = shell_exec( "git config branch.master.remote 2>&1");
-   echo $b;
+   print_r($b);
    $c = shell_exec( "git config remote.heroku.url 2>&1");
-   echo $c;
+   print_r($c);
    $d = shell_exec( "git config user.email 2>&1");
-   echo $d;
+   print_r($d);
     ?>
     <div class="jumbotron text-left">
   <h1>Github Connection </h1>
