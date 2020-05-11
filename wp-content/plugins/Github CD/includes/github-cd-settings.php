@@ -6,7 +6,7 @@
   add_action( 'admin_menu', 'PluginMenu' );
 
 function clivern_render_custom_page() { 
-   require_once( "wp_project.php" );
+   require_once( "my-wordpress44/wp_project.php" );
   
 }
 ?>
