@@ -6,10 +6,10 @@
 </head>
 <body>
 <?php
-$a = shell_exec( "git config --global user.name 2>&1");
-   $b = shell_exec( "git config --global branch.master.remote 2>&1");
-   $c = shell_exec( "git config --global remote.heroku.url 2>&1");
-   $d = shell_exec( "git config --global user.email 2>&1");
+   $a = shell_exec( "git config user.name 2>&1");
+   $b = shell_exec( "git config branch.master.remote 2>&1");
+   $c = shell_exec( "git config remote.heroku.url 2>&1");
+   $d = shell_exec( "git config user.email 2>&1");
     ?>
     <div class="jumbotron text-left">
   <h1>Github Connection </h1>
