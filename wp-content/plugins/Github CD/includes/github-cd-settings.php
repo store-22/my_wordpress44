@@ -45,7 +45,7 @@ function clivern_render_custom_page() {
       </tr>
       <tr>
         <td>Github EMAIL</td>
-        <td><?php print_r($file['user email']) ?></td>
+        <td><?php print_r($file['user email']); ?></td>
       </tr>
     </tbody>
   </table>
