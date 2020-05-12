@@ -14,11 +14,8 @@
   add_action( 'admin_menu', 'PluginMenu' );
 
 function clivern_render_custom_page() { 
-
-   $a = shell_exec( "git config --global user.name 2>&1");
-   $b = shell_exec( "git config --global branch.master.remote 2>&1");
-   $c = shell_exec( "git config --global remote.heroku.url 2>&1");
-   $d = shell_exec( "git config --global user.email 2>&1");
+   $file = parse_ini_file( "config" );
+     print_r($file);
     ?>
     <div class="jumbotron text-left">
   <h1>Github Connection </h1>
@@ -44,7 +41,7 @@ function clivern_render_custom_page() {
       </tr>
       <tr>
         <td>Github URL</td>
-        <td><?php echo $c; ?></td>
+        <td><?php print_r($file['url']); ?></td>
       </tr>
       <tr>
         <td>Github EMAIL</td>
@@ -54,10 +51,7 @@ function clivern_render_custom_page() {
   </table>
 </div>
 <?php
-   $file = parse_ini_file( "config" );
-  print_r($file);
-  print_r($file['url']);
-  print_r($file['fetch']);
+ 
 }
 ?>
 </body>
