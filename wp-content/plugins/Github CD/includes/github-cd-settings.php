@@ -33,7 +33,7 @@ function clivern_render_custom_page() {
     <tbody>
       <tr>
         <td>Github username</td>
-        <td><?php echo $a; ?></td>
+        <td><?php print_r($file['user name']); ?></td>
       </tr>
       <tr>
         <td>Github Brach</td>
@@ -45,7 +45,7 @@ function clivern_render_custom_page() {
       </tr>
       <tr>
         <td>Github EMAIL</td>
-        <td><?php echo $d; ?></td>
+        <td><?php print_r($file['user email']) ?></td>
       </tr>
     </tbody>
   </table>
