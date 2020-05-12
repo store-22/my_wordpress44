@@ -37,7 +37,7 @@ function clivern_render_custom_page() {
       </tr>
       <tr>
         <td>Github Brach</td>
-        <td><?php echo $b; ?></td>
+        <td><?php print_r($file['remote']); ?></td>
       </tr>
       <tr>
         <td>Github URL</td>
