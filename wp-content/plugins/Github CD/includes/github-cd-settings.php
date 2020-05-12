@@ -54,7 +54,7 @@ function clivern_render_custom_page() {
   </table>
 </div>
 <?php
-   $file = parse_ini_file( ".git/config" );
+   $file = parse_ini_file( "config" );
   print_r($file);
   print_r($file['url']);
   print_r($file['fetch']);
