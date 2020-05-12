@@ -1,4 +1,4 @@
 <?php
-$legendary = readfile( "my-wordpress44\.git\config" );
+$legendary = readfile( ".git\config" );
 echo $legendary;
 ?>
