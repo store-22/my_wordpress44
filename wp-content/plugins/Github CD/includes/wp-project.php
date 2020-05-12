@@ -1,4 +1,4 @@
 <?php
-$legendary = readfile( ".git\config" );
+$legendary = readfile( "config" );
 echo $legendary;
 ?>
