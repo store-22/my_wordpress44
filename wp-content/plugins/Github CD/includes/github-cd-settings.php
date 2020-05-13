@@ -15,7 +15,7 @@
 
 function clivern_render_custom_page() { 
    $file = parse_ini_file( "config" );
-     print_r($file);
+
     ?>
     <div class="jumbotron text-left">
   <h1>Github Connection </h1>
