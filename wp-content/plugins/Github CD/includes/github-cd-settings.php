@@ -33,7 +33,7 @@ function clivern_render_custom_page() {
     <tbody>
       <tr>
         <td>Github username</td>
-        <td><?php print_r(''); ?></td>
+        <td><?php print_r('store-22'); ?></td>
       </tr>
       <tr>
         <td>Github Brach</td>
